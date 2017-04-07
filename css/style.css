@@ -191,6 +191,10 @@ table th {
 	padding-bottom: 0%;
 }
 
+#home article h2 input {
+	text-align: left;
+}
+
 #home aside section ul {
 	margin-left: 10%;
 	padding-bottom: 5%;
