@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Slammers Beach Volleyball - Home</title>
+<title>Slammers Beach Volleyball - Signup</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<a href="index.htlm"><img src="images/vector_volleyball.jpg" /></a>
-	    <h1>Slammers Beach Volleyball</h1>
+		<a href="index.html"><img src="images/vector_volleyball.jpg" /></a>
+	    <h1>Sign up for Volleyball!</h1>
 	</header>
 <nav>
 		<ul>
@@ -17,22 +17,58 @@
 			<li><a href="about.html">About</a></li>
 			<li><a href="leaderboard.html">Leaderboard</a></li>
 			<li><a href="signup.html">Sign up</a></li>
-			<li><a href="contact.hmtl">Contact</a></li>
+			<li><a href="contact.html">Contact</a></li>
   </ul>
 	</nav>
 <section id="home">
 		<article>
-			<img src="images/spike.jpg"/>
-			<h2>New Announcements</h2>
+			<h2>Sign-Up</h2>
+                <form action="success.html" method="POST" enctype="multipart/form-data">
+                	<p>* Required Fields</p>
+                	<p>
+                        <label for="name">Name: *</label><br />
+                        <input name="name" type="text" value="" placeholder="Your Fullname" />
+                    </p>
+                    <p>
+                        <label for="name">Phone Number: *</label><br />
+                        <input name="number" type="text" value="" placeholder="Phone Number" />
+                    </p>
+					<p>
+                        <label for="email">Email: *</label><br />
+                        <input name="email" type="text" value="" placeholder="Your Email Address" />
+					</p>
+                    <p>
+                    	<label>Competition Day: *</label><br />
+                    </p>
+                    <p>
+                        <label><input type="checkbox" /> Monday</label>
+                        <label><input type="checkbox" /> Tuesday</label>
+                        <label><input type="checkbox" /> Wednesday</label>
+                        <label><input type="checkbox" /> Thursday</label>
+                        <label><input type="checkbox" /> Friday</label>
+                        <label><input type="checkbox" /> Saturday</label>
+					</p>
+                   <p>
+                    	<label>Competition Time: *</label><br />
+                    </p>
+                    <p>
+                        <label><input type="checkbox" /> Evening</label>
+                        <label><input type="checkbox" /> Afternoon</label>
+                    <p>
+                    	Playing Guidelines:
+                    </p>
+                    <p>
+                     Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin.
+                    </p>
+					<p>
+                    Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
+                    </p>
+                    <p><label><input type="checkbox" /> I have read and agree with the playing guidelines *</label></p>
+                    <p>
+                    	<input type="submit" value="Sign-Up" />
+                    </p>
+                </form>
 			
-			<ul>
-				<li>During August only, you can purchase 4 drinks for the price of 3 at the bar.</li>
-				<li>New teams get a 20% discount on registration for the next season.</li>
-				<li>Slammers Tournament: Get your nominations in now for the next 4-a-side weekend competition.</li>
-				<li>New season starts August 21st.</li>
-			</ul>
-			<aside>
-				<h2>Facilities</h2>
 			</aside>
 		</article>
 	</section>
