@@ -120,4 +120,32 @@ nav ul li a:hover {
 	text-align: left;
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	
+}
+
+table th {
+	padding: 1em;
+}
+
+#homeleaderboard {
+	display: block;
+	width: 90%;
+	margin: 1.25em auto;
+	padding: 0em;
+}
+
+#homeleaderboard Article {
+	display: inline-block;
+	width: 100%;
+	margin: 1.25em auto;
+	padding: 0em;
+	vertical-align: top;
+	text-align: center;
+	
 }
